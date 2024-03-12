@@ -30,11 +30,11 @@ let flambda = false
 
 let ext_obj = ".o_The boot compiler cannot process C objects"
 
-let exec_magic_number = "Caml1999X034"
+let exec_magic_number = "Caml1999X035"
     (* exec_magic_number is duplicated in runtime/caml/exec.h *)
-and cmi_magic_number = "Caml1999I034"
-and cmo_magic_number = "Caml1999O034"
-and cma_magic_number = "Caml1999A034"
+and cmi_magic_number = "Caml1999I035"
+and cmo_magic_number = "Caml1999O035"
+and cma_magic_number = "Caml1999A035"
 and cmx_magic_number =
   if flambda then
     "Caml1999y034"
@@ -45,10 +45,10 @@ and cmxa_magic_number =
     "Caml1999z034"
   else
     "Caml1999Z034"
-and ast_impl_magic_number = "Caml1999M034"
-and ast_intf_magic_number = "Caml1999N034"
-and cmxs_magic_number = "Caml1999D034"
-and cmt_magic_number = "Caml1999T034"
+and ast_impl_magic_number = "Caml1999M035"
+and ast_intf_magic_number = "Caml1999N035"
+and cmxs_magic_number = "Caml1999D035"
+and cmt_magic_number = "Caml1999T035"
 
 let interface_suffix = ref ".mli"
 
